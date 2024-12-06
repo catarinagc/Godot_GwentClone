@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://c2e8kh2cn2ba4"]
+
+[ext_resource type="PackedScene" uid="uid://cx2qfla0036j0" path="res://Scenes/card_field.tscn" id="1_c6ukh"]
+
+[node name="GameScreen" type="Node2D"]
+
+[node name="CardField" parent="." instance=ExtResource("1_c6ukh")]
+position = Vector2(-4, 74)
+fieldType = 1
+
+[node name="Node" type="Node" parent="."]
+
+[node name="CardField2" parent="." instance=ExtResource("1_c6ukh")]
+position = Vector2(9, 462)
